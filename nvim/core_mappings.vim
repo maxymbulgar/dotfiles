@@ -1,4 +1,3 @@
-"test
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nnoremap j gj
 nnoremap k gk
@@ -71,7 +70,9 @@ map <silent> <leader>] <C-w>10>
     map <C-p> :FZF<CR>
 
 "----------------Search------------------------"
-
+  map /  <Plug>(incsearch-forward)
+  map ?  <Plug>(incsearch-backward)
+  map g/ <Plug>(incsearch-stay)
 
 """""""""""""""""""NERDTREE"""""""""""""""""""""
 

@@ -58,6 +58,7 @@ if dein#load_state('/Users/maxymbulgar/.config/nvim')
   call dein#add('junegunn/fzf.vim', { 'depends': 'fzf' })
   call dein#add('dyng/ctrlsf.vim')
   call dein#add('easymotion/vim-easymotion')
+  call dein#add('haya14busa/incsearch.vim')
   " Syntax:
   " RUBY
   call dein#add('vim-ruby/vim-ruby')
