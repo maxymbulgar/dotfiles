@@ -43,7 +43,9 @@ set smartcase
 set lazyredraw                                                                  " redraw only when we need to
 set ttyfast " nvim default
 set so=3
-"set foldmethod=indent
+" Persistent undo
+set undofile
+set undodir=~/.vim/undodir
 
 "------------------View------------------------"
 
