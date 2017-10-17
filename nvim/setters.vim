@@ -109,3 +109,4 @@ let g:startify_session_persistence = 1
 let g:vroom_use_vimux = 1
 
 """"""""""""""""""RSPEC""""""""""""""""""""
+let g:tmux_navigator_disable_when_zoomed = 1
