@@ -52,7 +52,9 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Colosheme
 set background=dark
-colorscheme dracula
+let g:hybrid_custom_term_colors = 1
+colorscheme hybrid
+"colorscheme dracula
 
 "devicons Setting {{
 set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
