@@ -47,6 +47,7 @@ if dein#load_state('/Users/maxymbulgar/.config/nvim')
   " Colors
   call dein#add('flazz/vim-colorschemes')
   call dein#add('dracula/vim')
+  call dein#add('w0ng/vim-hybrid')
 
   call dein#add('ntpeters/vim-better-whitespace')
 
