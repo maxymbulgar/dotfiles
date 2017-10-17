@@ -90,3 +90,8 @@ map <silent> <leader>] <C-w>10>
 
 
   """""""""""""""""""OTHER"""""""""""""""""""""
+  """""""""""""""""""GIT"""""""""""""""""""""
+  map <Leader>gd :Gsdiff<CR>
+  map <Leader>gb :Gblame<CR>
+  map <Leader>gs :Gstatus<CR>
+  map <Leader>gl :Glog<CR>
