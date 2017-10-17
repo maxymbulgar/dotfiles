@@ -14,9 +14,13 @@ if dein#load_state('/Users/maxymbulgar/.config/nvim')
   " Required:
   call dein#add('/Users/maxymbulgar/.config/nvim/repos/github.com/Shougo/dein.vim')
 
-  " Add or remove your plugins here:
+  " Snippets
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
+  call dein#add('SirVer/ultisnips')
+  call dein#add('honza/vim-snippets')
+  call deoplete#custom#set('ultisnips', 'matchers', ['matcher_fuzzy'])
+  call deoplete#custom#source('ultisnips', 'rank', 1000)
 
   " You can specify revision/branch/tag.
   call dein#add('Shougo/vimshell')
@@ -63,7 +67,7 @@ if dein#load_state('/Users/maxymbulgar/.config/nvim')
   " RUBY
   call dein#add('vim-ruby/vim-ruby')
   call dein#add('tpope/vim-rails', {'on_ft': 'ruby'})
-  call dein#add('fishbullet/deoplete-ruby')
+  "call dein#add('fishbullet/deoplete-ruby')
   call dein#add('tpope/vim-cucumber')
   " TYPESCRIPT
   call dein#add('HerringtonDarkholme/yats.vim', {'on_ft': 'typescript'})

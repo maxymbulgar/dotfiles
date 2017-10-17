@@ -50,8 +50,7 @@ map <silent> <leader>] <C-w>10>
 
   """"""""""""""""AutoComplete""""""""""""""""""""
 
-    imap <C-k> <Plug>(neosnippet_expand_or_jump)
-
+    let g:UltiSnipsExpandTrigger="<tab>"
 
 "----------------Easy edit----------------------"
 
