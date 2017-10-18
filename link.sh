@@ -3,7 +3,8 @@
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # git
-ln -s ${BASEDIR}/gitconfig ~/.gitconfig
+ln -s ${BASEDIR}/git/gitconfig ~/.gitconfig
+ln -s ${BASEDIR}/git/gitignore ~/.gitignore
 # Ruby
 ln -s ${BASEDIR}/ruby/pryrc ~/.pryrc
 ln -s ${BASEDIR}/ruby/rubocop.yml ~/.rubocop.yml
